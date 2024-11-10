@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Unbounded:wght@200..900&display=swap');
+
+body {
+  font-family: "Unbounded", sans-serif;
+}
+
+/* Hero Section */
+
+#Hero-Section {
+  background-image: url("../img/luces.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: left;
+  overflow: hidden;
+  height: 100vh;
+}
+
+/* Mis trabajos */
+
+#Mis-trabajos .image-top {
+  height: 250px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+/* Contacto */
+
+#Contacto form label {
+  font-weight: 700;
+  color: #373a3c;
+}
+
+@media (max-width: 768px) {
+  #Contacto form label {
+    font-weight: 400;
+  }
+
+  .navbar-brand{
+    width: 100px;
+  }
+
+}
+.fotomia{
+    width: 20%;
+}
+
+
+
+.iguanasec img{
+    height: 200vh;
+    
+}
+
+.fotocup{
+    width: 100%;
+}
