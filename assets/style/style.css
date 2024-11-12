@@ -53,10 +53,11 @@ body {
 }
 
 .iguanasec img{
-    height: 200vh;
-    
+    height: auto;
+    width: auto;    
 }
 
 .fotocup{
-    width: 100%;
+    width: auto;
+    height: auto;
 }
